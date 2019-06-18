@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  background-image: url('https://blogs.illinois.edu/files/6659/339866/85054.jpg');
+  text-align: center;
+  padding-top: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.card-body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.card {
+  border: none;
+}
+
+.rc-slider-handle {
+  position: absolute;
+  margin-left: -7px;
+  margin-top: -7px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 2px #eab543;
+  background-color: #eab543;
+}
+
+.rc-slider-mark-text {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+
+.card-body h4 {
+  font-family: monospace;
+  color: white;
+}
+
+h5,
+h1,
+h3 {
+  font-family: monospace;
+  color: white;
+}
+
+.list-group-item {
+  color: #112f91;
+}
+
+.list-group-item a {
+  color: #1b7fbd;
+}
